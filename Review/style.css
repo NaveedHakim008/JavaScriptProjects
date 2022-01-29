@@ -1,0 +1,134 @@
+body
+{
+    background-color: azure;
+}
+.review-head
+{
+    margin-top:50px;
+    margin-left:45%;
+    font-size:40px;
+
+}
+.underline
+{
+    position:relative;
+    width:125px;
+    height:4px;
+    background-color: rgb(9, 236, 236);
+    margin-left:43px;
+
+}
+.reviewbox
+{
+    margin:50px 40% 0px 42%;
+    width:300px;
+    height:400px;
+    background-color: rgba(255, 255, 255, 0.993);
+}
+#imguser
+{
+    position:relative;
+    top:-130px;
+    left:-1px;
+    border-radius: 50%;
+    width:130px;
+    height:130px;
+    object-fit: cover;
+    z-index:1;
+
+}
+.img-background
+{
+
+    
+    width:135px;
+    height:135px;
+    border-radius: 50%;
+    background-color: rgb(9, 236, 236);
+
+}
+.imgcont
+{
+    
+    padding-top:50px;
+    margin:0px 20px 0px 80px;
+}
+#author
+{
+    position:relative;
+    width:100px;
+    font-weight: bolder;
+    margin:-120px 20px 0px 37%;
+}
+#occupation
+{
+    
+    font-weight: bolder;
+    width:50%;
+    position:relative;
+  margin-top:5px;
+  padding:0 10%;
+  margin-left:25%;
+}
+.info
+{
+    
+    padding-right:3px; 
+    margin-left:7.5%;
+    position:relative;
+    width:85%;
+height:75px;
+overflow-x: hidden;
+overflow-y: auto;
+text-align:justify;
+}
+.info::-webkit-scrollbar {
+    width:0.5vw;
+}
+ 
+.info::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 15%;
+}
+ 
+.info::-webkit-scrollbar-thumb {
+    background-color: rgb(9, 236, 236);
+    border-radius: 15%;
+}
+i
+{
+color:rgb(9, 236, 236);
+font-weight: bold;
+font-size: 18px;
+}
+.button-container
+{
+margin-top: -10px;
+ margin-left:37%;
+}
+button
+{
+ cursor:pointer;
+ background-color: rgba(255, 255, 255, 0.993);
+ border: 2px solid rgba(255, 255, 255, 0.993);
+}
+.next-btn{
+    margin-left:5%;
+}
+.random-btn
+{
+   border: 2px solid rgb(9, 236, 236);
+   color:rgb(9, 236, 236);
+   border-radius: 7px;
+   margin-left: 33%;
+   margin-top:5px;
+}
+.random-btn:hover{
+    color:rgb(70, 78, 78);
+}
+.random-btn:active{
+    background-color: rgb(178, 240, 240);
+}
+
+
+
